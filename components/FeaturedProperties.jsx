@@ -29,7 +29,7 @@ const FeaturedProperties = async () => {
         </div>
       </div>
     </section>
-    
+
     </>
   )
 }
