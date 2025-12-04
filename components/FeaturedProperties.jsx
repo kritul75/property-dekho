@@ -29,14 +29,7 @@ const FeaturedProperties = async () => {
         </div>
       </div>
     </section>
-    <section className='m-auto max-w-lg my-10 px-6'>
-        <Link
-          href='/properties'
-          className='block bg-black text-white opacity-80 text-center py-4 px-6 rounded-xl hover:opacity-90'
-        >
-          View All Properties
-        </Link>
-      </section>
+    
     </>
   )
 }
