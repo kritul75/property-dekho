@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🏡 Property Dekho — Real Estate Listing Platform
 
-## Getting Started
+Property Dekho is a modern full-stack real-estate marketplace where users can browse properties, view locations on an interactive map, bookmark listings, and contact property owners via messaging.
 
-First, run the development server:
+Built with Next.js (App Router), MongoDB, Leaflet Maps, TailwindCSS, and Next-Auth.
 
-```bash
+✨ Features
+
+🔐 User Authentication
+
+Login / Signup
+
+Google OAuth (optional)
+
+🏠 Property Listings
+
+Detailed property pages
+
+Images gallery & property info
+
+Pagination + filtering
+
+📍 Interactive Maps
+
+Fetches geolocation automatically using Geocoding API
+
+Map rendered with React-Leaflet + OpenStreetMap
+
+⭐ Bookmark System
+
+Save/unsave properties
+
+Personalized dashboard
+
+✉️ Messaging System
+
+Contact property owners
+
+Messages stored and visible in inbox
+
+Delete / read messages
+
+📱 Fully Responsive UI
+
+🧰 Tech Stack
+Layer	Technology
+Frontend	Next.js (App Router), React, Tailwind CSS
+Backend	Next.js Server Actions, Node.js
+Auth	Next-Auth
+Database	MongoDB + Mongoose
+Maps	Leaflet + OpenStreetMap
+Deployment	Vercel / Docker (optional)
+🚀 Getting Started
+1️⃣ Clone Repository
+git clone https://github.com/kritul75/property-dekho.git
+cd property-dekho
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Configure Environment
+
+Create .env.local file:
+
+MONGODB_URI=
+NEXTAUTH_SECRET=
+NEXTAUTH_URL=http://localhost:3000
+
+NEXT_PUBLIC_WEATHER_API_KEY=  # if geocoding API is used
+
+4️⃣ Run Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open the app at:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+📂 Folder Structure
+property-dekho/
+ ├─ app/
+ │  ├─ api/
+ │  ├─ components/
+ │  ├─ properties/
+ │  └─ dashboard/
+ ├─ models/
+ ├─ public/
+ ├─ utils/
+ └─ README.md
 
-To learn more about Next.js, take a look at the following resources:
+📌 Roadmap
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔍 Advanced search filters (budget, area, furnishing, BHK)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📊 Owner dashboard analytics
 
-## Deploy on Vercel
+🧭 Nearby services using Google Places API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+💬 Real-time chat using Socket.io / Pusher
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🐛 Issues & Contributions
+
+Found a bug or want a feature?
+Feel free to open an issue or submit a PR.
+
+📄 License
+
+MIT License — free to modify and use.
+
+❤️ Built by Kritul
+
+Feel free to connect or suggest improvements!
